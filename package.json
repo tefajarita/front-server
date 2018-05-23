@@ -4,6 +4,7 @@
     "license": "MIT",
     "scripts": {
         "ng": "ng",
+<<<<<<< HEAD
         "start": "http-server",
         "build": "ng build --prod",
         "test": "ng test",
@@ -17,6 +18,21 @@
     "dependencies": {
         "@angular/cli": "~1.7.4",
         "@angular/compiler-cli": "^5.2.0",
+=======
+        "start": "node server.js",
+        "build": "ng build --prod",
+        "test": "ng test",
+        "lint": "ng lint",
+        "e2e": "ng e2e",
+        "postinstall": "ng build --aot -prod"
+    },
+    "engines": {
+        "node": "10.0.0",
+        "npm": "6.0.1"
+    },
+    "private": true,
+    "dependencies": {
+>>>>>>> origin/master
         "@angular/animations": "^5.2.0",
         "@angular/common": "^5.2.0",
         "@angular/compiler": "^5.2.0",
@@ -27,7 +43,14 @@
         "@angular/platform-browser-dynamic": "^5.2.0",
         "@angular/router": "^5.2.0",
         "core-js": "^2.4.1",
+<<<<<<< HEAD
         "rxjs": "^5.5.6",
+=======
+        "express": "^4.16.3",
+        "path": "^0.12.7",
+        "rxjs": "^5.5.6",
+        "typescript": "~2.3.3",
+>>>>>>> origin/master
         "zone.js": "^0.8.19"
     },
     "devDependencies": {
@@ -38,6 +61,10 @@
         "@types/jasminewd2": "~2.0.2",
         "@types/node": "~6.0.60",
         "codelyzer": "^4.0.1",
+<<<<<<< HEAD
+=======
+        "enhanced-resolve": "^3.3.0",
+>>>>>>> origin/master
         "jasmine-core": "~2.8.0",
         "jasmine-spec-reporter": "~4.2.1",
         "karma": "~2.0.0",
