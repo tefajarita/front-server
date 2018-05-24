@@ -7,6 +7,7 @@ import { PagenofoundComponent } from './pagenofound/pagenofound.component';
 
 const appRoutes: Routes = [
     {path: 'login' , component: LoginComponent},
+    {path: ' ', component: HomeComponent},
     {path: 'home', component: HomeComponent},
     {path: 'register' , component: RegisterComponent},
     {path: 'contact' , component: ContactComponent},
