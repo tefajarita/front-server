@@ -207,6 +207,8 @@ section{
 .block.no-padding{padding-top:0; padding-bottom:0; }
 .block.dark{background:#111111}
 .gray{background:#f4f5fa}
+.blue{background:#222534}
+.brown{background:#3A343D}
 .block.remove-bottom{padding-bottom:0}
 .parallax,.fixed-bg{
     background-size:cover!important;
