@@ -25,6 +25,9 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 
+//Importaciones de formulario
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -51,7 +54,9 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     BrowserModule,
     APP_ROUTES,
-    HttpModule
+    HttpModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

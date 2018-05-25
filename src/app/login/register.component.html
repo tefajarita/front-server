@@ -14,30 +14,26 @@
                                 <span>Candidate</span>
                                 <span>Employer</span>
                             </div>
-                            <form>
+                            <form ngNativeValidate [formGroup]="forma" (ngSubmit)="signUpUser()">
                                 <div class="cfield">
-                                    <input type="text" placeholder="Username" />
+                                    <input formControlName="nombre" type="text" required placeholder="Username" />
                                     <i class="la la-user"></i>
                                 </div>
                                 <div class="cfield">
-                                    <input type="password" placeholder="********" />
+                                    <input formControlName="password" type="password" required placeholder="password" />
                                     <i class="la la-key"></i>
                                 </div>
                                 <div class="cfield">
-                                    <input type="text" placeholder="Email" />
-                                    <i class="la la-envelope-o"></i>
-                                </div>
-                                <div class="dropdown-field">
-                                    <select data-placeholder="Please Select Specialism" class="chosen">
-											<option>Web Development</option>
-											<option>Web Designing</option>
-											<option>Art & Culture</option>
-											<option>Reading & Writing</option>
-										</select>
+                                    <input formControlName="password2" type="password" required placeholder="Repeat password" />
+                                    <i class="la la-key"></i>
                                 </div>
                                 <div class="cfield">
-                                    <input type="text" placeholder="Phone Number" />
-                                    <i class="la la-phone"></i>
+                                    <input formControlName="email" type="text" required placeholder="Email" />
+                                    <i class="la la-envelope-o"></i>
+                                </div>
+                                <div class="mce-checkbox">
+                                    <input formControlName="condiciones" required type="checkbox" id="checkTerm" />
+                                    <label for="checkTerm">I accept <a class="alert alert-danger">terms</a> and conditions</label>
                                 </div>
                                 <button type="submit">Signup</button>
                             </form>
