@@ -391,8 +391,7 @@ section {
 }
 
 .brown {
-    background: #3A343D;
-    ;
+    background: #3A343D;;
 }
 
 .block.remove-bottom {
@@ -475,13 +474,10 @@ i {
     font-style: italic
 }
 
-
-{
-   /* ! float:left; */
-
-
-/*! height:auto*/ 
-}
+/*{
+    ! float:left; */
+    /*! height:auto 
+}*/
 
 :-webkit-input-placeholder {
     opacity: 1
@@ -12810,22 +12806,21 @@ header.style4 .account-btns>li a,
 .how-to-sec,
 .how-to-sec *,
 .responsivemenu li,
-.responsivemenu {
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
+    .responsivemenu {
+        -webkit-transition: all 0.4s ease 0s;
+        -moz-transition: all 0.4s ease 0s;
+        -ms-transition: all 0.4s ease 0s;
+        -o-transition: all 0.4s ease 0s;
+        transition: all 0.4s ease 0s;
+    }   margin-top: 20px;
 }
 
-margin-top: 20px;
-
-}
 .error-sec form {
     float: left;
     width: 100%;
     padding: 0;
 }
+
 .error-sec form>input {
     float: none;
     width: 510px;
@@ -12840,6 +12835,7 @@ margin-top: 20px;
     display: inline-block;
     margin: 0;
 }
+
 .error-sec form button {
     float: none;
     display: inline-block;
@@ -12858,6 +12854,7 @@ margin-top: 20px;
     position: relative;
     top: 7px;
 }
+
 .error-sec h6 a {
     float: none;
     display: inline-block;
@@ -12873,93 +12870,116 @@ margin-top: 20px;
     border-radius: 8px;
     margin-top: 30px;
 }
+
 .error-sec>h6 {
     float: left;
     width: 100%;
     margin: 0;
 }
+
 .stick-top .style3 .post-job-btn:hover {
     background: transparent;
     border: 2px solid #fb236a;
     color: #fb236a;
 }
+
 .btn-extars .post-job-btn:hover {
     background: transparent;
     border: 2px solid #fb236a;
     color: #FFF;
 }
+
 .account-popup>form button:hover {
     background: #fb236a;
 }
+
 .login-social a.tw-login:hover {
     background: #1da1f2;
     border-color: #1da1f2;
     color: #ffffff;
 }
+
 .login-social a.fb-login:hover {
     background: #3b5998;
     border-color: #3b5998;
     color: #ffffff;
 }
+
 .job-search form button:hover {
     background: #fb236a;
 }
+
 .or-browser>a:hover {
     background: #ffffff;
     color: #333333;
 }
+
 .scroll-to:hover {
     border-color: #fb236a;
 }
+
 .scroll-to:hover a {
     background: #fb236a;
     color: #ffffff;
 }
+
 .browse-all-cat a:hover {
     background: #fb236a;
     color: #ffffff;
 }
+
 .simple-text-block a:hover {
     border-color: #FFF;
     background: #FFF;
     color: #fb236a;
 }
+
 .fav-job.active {
     color: red;
 }
+
 .social a:hover {
     color: #fff;
 }
+
 header.style2 .post-job-btn:hover {
     background: #fb236a;
     border-color: #fb236a;
     color: #ffffff;
 }
+
 header.style2 .account-btns {
     padding: 10px 0;
 }
+
 .job-grid>a:hover {
     background: #fb236a;
     color: #ffffff;
     border-color: #fb236a;
 }
+
 .top-compnay>a:hover {
     background: #fb236a;
     color: #ffffff;
     border-color: #fb236a;
 }
+
 .subscription-sec form button:hover {
     background: #333333;
 }
+
 .social-links:hover a {
     opacity: 0.1;
 }
+
 .social-links:hover a:hover {
     opacity: 1;
 }
+
 .links a:hover {
     color: #333333;
 }
+
 header.style3 .post-job-btn:hover {
     -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -12967,40 +12987,51 @@ header.style3 .post-job-btn:hover {
     -o-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
+
 .find-cand form>button:hover {
     background: #fb236a;
 }
+
 .download-text ul li a:hover {
     background: #7dc246;
     border-color: #7dc246;
 }
+
 .team-detail>a:hover {
     color: #000000;
 }
+
 footer.ft .social a:hover {
     color: #333333;
 }
+
 header.style4 .account-btns>li a:hover {
     background: #1e83f0;
     border-color: #1e83f0;
     color: #ffffff;
 }
+
 .job-search form button:hover {
     background: #fb236a;
 }
+
 .p-category.style2:hover>a i {
     color: #fb236a;
 }
+
 .subscribe_widget form button:hover {
     background: #fb236a;
 }
+
 header.style5 .post-job-btn:hover {
     background: #ffffff;
     color: #333333;
 }
+
 .form-location-sec form button:hover {
     background: #fb236a;
 }
+
 .p-category.style2.gray:hover {
     background: #ffffff;
     box-shadow: none;
@@ -13013,64 +13044,78 @@ header.style5 .post-job-btn:hover {
     width: auto;
     margin-left: 0px;
 }
+
 .job-listings-sec.style2 .aply-btn:hover {
     background: transparent;
     border: 1px solid #26ae61;
     color: #26ae61;
 }
+
 .job-grid.style2:hover {
     background: #ffffff;
     box-shadow: none;
 }
+
 .grid-info-box a:hover {
     background: transparent;
     border: 1px solid #26ae61;
     color: #26ae61;
 }
+
 .who-am a:hover {
     background: #ffffff;
     color: #333333;
 }
+
 .emlthis.active {
     background: #fb236a;
     border-color: #fb236a;
     color: #ffffff;
 }
+
 .emlthis.active i {
     color: #ffffff;
 }
+
 .job-head-wide .apply-thisjob:hover {
     background: transparent;
     border-color: #9fa4e1;
     color: #9fa4e1;
 }
+
 .apply-thisjob:hover {
     background: #9fa4e1;
     border-color: #9fa4e1;
     color: #FFF;
 }
+
 .apply-alternative a:hover {
     background: #fb236a;
     border-color: #fb236a;
     color: #ffffff;
 }
+
 .share-bar a:hover {
     background: #fb236a;
     border-color: #fb236a;
     color: #ffffff;
 }
+
 .quick-form-job form button:hover {
     background: transparent;
     border: 2px solid #424f95;
     color: #424f95;
 }
+
 .emply-text>ul>li:hover::before {
     background: #fb236a;
     width: 20px;
 }
+
 .emply-text>ul>li:hover a {
     color: #fb236a;
 }
+
 .job-single-head.style2>a:hover {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -13079,43 +13124,53 @@ header.style5 .post-job-btn:hover {
     border-radius: 8px;
     color: #ffffff;
 }
+
 .job-single-head.style2>.apply-job-linkedin:hover {
     color: #fb236a;
 }
+
 .job-overview ul>li:hover i {
     color: #fb236a;
 }
+
 .emply-btns>a:hover {
     background: #8b91dd;
     border-color: #8b91dd;
     color: #FFF;
 }
+
 .emply-btns>a.seemap:hover {
     background: transparent;
     border-color: #fb236a;
     color: #fb236a;
 }
+
 .upload-info>a:hover {
     background: #8b91dd;
     color: #ffffff;
 }
+
 .pf-field .chosen-container.chosen-container-single.chosen-container-single-nosearch.chosen-with-drop.chosen-container-active a {
     border: 2px solid #e8ecec;
 }
+
 .pf-field .chosen-container-single .chosen-drop {
     margin-top: 5px;
     border: 1px solid #e8ecec;
 }
+
 .profile-form-edit>form button:hover,
 .contact-edit>form button:hover {
     background: #fb236a;
     color: #ffffff;
 }
+
 .contact-edit .srch-lctn:hover {
     background: #8b91dd;
     color: #ffffff;
     border-color: #8b91dd;
 }
+
 .pf-map #map_div {
     height: 300px;
     -webkit-border-radius: 8px;
@@ -13124,94 +13179,119 @@ header.style5 .post-job-btn:hover {
     -o-border-radius: 8px;
     border-radius: 8px;
 }
+
 .table-list-title h3 a:hover {
     color: #fb236a;
 }
+
 .tree_widget-sec>ul>li>ul>li a:hover {
     color: #202020;
 }
+
 .contact-popup form>button:hover {
     background: #333333;
 }
+
 .change-password form button:hover {
     background: #fb236a;
     color: #ffffff;
 }
+
 .shortlists>a:hover {
     background: #8b91dd;
     color: #ffffff;
 }
+
 .action-inner .download-cv a:hover {
     background: #fb236a;
     border-color: #fb236a;
 }
+
 .follow-companies>ul li .job-listing.wtabs .go-unfollow:hover {
     background: #fb236a;
     border-color: #fb236a;
     color: #fff;
 }
+
 .border-title>a:hover {
     color: #555555;
 }
+
 .border-title>a:hover i {
     background: #555555;
 }
+
 .resumeadd-form button:hover {
     background: #555555;
     border-color: #555555;
 }
+
 .coverletter-sec>form button:hover {
     background: #fb236a;
     color: #ffffff;
 }
+
 .bbutton:hover {
     background: #fb236a;
     color: #ffffff;
 }
+
 .blogpost.style2 .blog-postdetail .bbutton:hover {
     background: none;
     color: #333333;
 }
+
 .tags_widget>a:hover {
     background: #fafafa;
 }
+
 .sidebar-links a:hover {
     color: #fb236a;
 }
+
 .mb-info>h3:hover {
     color: #fb236a;
 }
+
 .blog-postdetail>h3:hover {
     color: #fb236a;
 }
+
 .post-hist a:hover>i {
     background: #fafafa;
 }
+
 .commentform-sec>form button:hover {
     background: #555555;
 }
+
 .service:hover i {
     background: #fb236a;
     border-color: #fb236a;
     color: #ffffff;
 }
+
 .contact-form>form button:hover {
     background: transparent;
     border: 2px solid #fb236a;
     color: #fb236a;
 }
+
 .contact-textinfo>a.fill:hover,
 .contact-textinfo>a:hover {
     background: #fb236a;
     border-color: #fb236a;
     color: #ffffff;
 }
+
 .error-sec form button:hover {
     background: #fb236a;
 }
+
 .error-sec h6 a:hover {
     background: #fb236a;
 }
+
 .menu-sec nav>ul>li ul li.menu-item-has-children>ul {
     position: absolute;
     left: 100%;
@@ -13220,6 +13300,7 @@ header.style5 .post-job-btn:hover {
     opacity: 0;
     visibility: hidden;
 }
+
 .menu-sec nav>ul>li ul li.menu-item-has-children>ul::before {
     position: absolute;
     left: 7px;
@@ -13239,10 +13320,12 @@ header.style5 .post-job-btn:hover {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
 .menu-sec nav>ul>li ul li.menu-item-has-children:hover>ul {
     opacity: 1;
     visibility: visible;
 }
+
 .bottom-line .scrollup {
     position: absolute;
     right: 70px;
@@ -13264,44 +13347,54 @@ header.style5 .post-job-btn:hover {
     color: #8a99b3;
     font-size: 23px;
 }
+
 .bottom-line .scrollup:hover {
     border: 2px solid #FFF;
     color: #FFF;
 }
+
 footer.ft .scrollup:hover {
     border-color: #647585;
     color: #647585;
 }
+
 .bottom-line.style2 .scrollup {
     border: none;
     bottom: 8px;
 }
+
 footer.ft .scrollup {
     border-color: #7dc246;
     color: #7dc246;
     bottom: 190px;
     z-index: 6;
 }
+
 .forsticky {
     position: absolute;
     left: 0;
     top: 0;
 }
+
 .forsticky.sticky .menu-sec nav>ul>li>a {
     color: #232323;
     line-height: 10px;
 }
+
 .forsticky.sticky .account-btns>li a {
     color: #222222;
 }
+
 .forsticky.sticky .menu-sec {
     margin-top: 23px;
     margin-bottom: 17px;
 }
+
 .forsticky.sticky .post-job-btn:hover {
     background: #fb236a;
     color: #FFF;
 }
+
 .forsticky.sticky {
     position: fixed;
     left: 0;
@@ -13313,28 +13406,35 @@ footer.ft .scrollup {
     -o-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
 }
+
 .showsticky {
     display: none;
     position: absolute;
     left: 0;
     top: 0;
 }
+
 .forsticky.sticky .logo a img.showsticky {
     display: block;
 }
+
 .forsticky.sticky .logo a img.hidesticky {
     opacity: 0;
 }
+
 *:focus {
     outline: 0;
 }
+
 .top-company-sec button.slick-arrow:hover {
     background: #fb236a;
     border: 2px solid #fb236a;
 }
+
 .top-company-sec button.slick-arrow:hover:before {
     color: #ffffff;
 }
+
 .iconmove {
     position: absolute;
     left: 0;
@@ -13343,27 +13443,34 @@ footer.ft .scrollup {
     height: 100%;
     overflow: hidden;
 }
+
 .iconmove img {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
 }
+
 .p-category.green>a i {
     color: #647585;
 }
+
 .p-category.green:hover a i {
     color: #7dc246;
 }
+
 .browse-all-cat.green a {
     border-color: #7dc246;
 }
+
 .browse-all-cat.green a:hover {
     background: #7dc246;
 }
+
 .job-field.with-icon.nolbel input {
     margin: 41px 0;
 }
+
 .browse-all-cat .style2.noradius {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -13376,19 +13483,23 @@ footer.ft .scrollup {
     -o-box-shadow: none;
     box-shadow: none;
 }
+
 .alpha-pag.full #filter {
     margin: 0;
     float: left;
     width: 100%;
 }
+
 .alpha-pag.full #filter li {
     float: left;
     margin: 0;
 }
+
 .alpha-pag.full a.selected {
     background: #8b91dd;
     color: #ffffff;
 }
+
 .alpha-pag.full #filter li:first-child a {
     font-size: 13px;
     color: #888888;
@@ -13396,12 +13507,15 @@ footer.ft .scrollup {
     margin-right: 30px;
     font-weight: normal;
 }
+
 .alpha-pag.full #filter li:first-child a.selected {
     color: #ffffff;
 }
+
 .alpha-pag.full #filter li:first-child a:hover {
     color: #fff;
 }
+
 .tags {
     float: left;
     width: 100%;
@@ -13413,6 +13527,7 @@ footer.ft .scrollup {
     border-radius: 8px;
     padding: 8px;
 }
+
 .tags>.addedTag {
     float: left;
     background: #f4f5fa;
@@ -13427,6 +13542,7 @@ footer.ft .scrollup {
     margin-right: 10px;
     position: relative;
 }
+
 .tags>.addedTag>span {
     position: absolute;
     right: -6px;
@@ -13447,6 +13563,7 @@ footer.ft .scrollup {
     font-family: Open Sans;
     cursor: pointer;
 }
+
 .tagAdd.taglist input {
     float: left;
     width: auto;
@@ -13459,9 +13576,11 @@ footer.ft .scrollup {
     margin-left: 15px;
     padding-left: 15px;
 }
+
 .tags li {
     margin: 0;
 }
+
 .emply-resume-list:hover {
     border-color: #ffffff;
     -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
@@ -13473,42 +13592,51 @@ footer.ft .scrollup {
     position: relative;
     z-index: 12;
 }
+
 .edu-history-sec .action_job {
     position: absolute;
     right: 0;
     top: 0;
     left: auto;
 }
+
 .edu-history-sec .action_job li a {
     font-size: 19px;
     color: #8b91dd;
 }
+
 .mp-col .action_job {
     float: left;
     width: 100%;
     text-align: center;
     margin-top: -10px;
 }
+
 .mp-col .action_job li {
     float: none;
     display: inline-block;
 }
+
 .mp-col .action_job li a {
     font-size: 19px;
     color: #8b91dd;
 }
+
 .progress-sec.with-edit .action_job {
     position: absolute;
     right: 0;
     top: 17px;
 }
+
 .progress-sec.with-edit .action_job li a {
     font-size: 19px;
     color: #8b91dd;
 }
+
 .menu-sec nav>ul>li ul li.menu-item-has-children>ul>li {
     background: #fafafa;
 }
+
 .cand-extralink.stick {
     position: fixed;
     left: 0;
@@ -13517,9 +13645,11 @@ footer.ft .scrollup {
     background: #ffffff;
     z-index: 9;
 }
+
 .cand-extralink>li.active a {
     border-color: #8b91dd;
 }
+
 .responsive-header {
     float: left;
     width: 100%;
@@ -13529,48 +13659,61 @@ footer.ft .scrollup {
     z-index: 99;
     display: none;
 }
+
 .responsive-header.three {
     background: #FFF !important;
 }
+
 .responsive-header.four {
     background: #FFF !important;
 }
+
 .responsive-header.five {
     background: #26ae61 !important;
 }
+
 .responsive-header.five .res-openmenu {
     background: transparent !important;
 }
+
 .responsive-header.three .res-openmenu {
     color: #7dc246;
 }
+
 .responsive-header.three .res-closemenu {
     color: #7dc246;
 }
+
 .responsive-header.four .res-openmenu {
     color: #7dc246;
 }
+
 .responsive-header.four .res-closemenu {
     color: #7dc246;
 }
+
 .responsive-menubar {
     float: left;
     width: 100%;
     padding: 30px 0;
 }
+
 .res-logo {
     float: left;
 }
+
 .menu-resaction {
     float: right;
     position: relative;
 }
+
 .responsivemenu {
     float: left;
     width: 100%;
     margin-top: 40px;
     margin-bottom: 50px;
 }
+
 .res-openmenu {
     float: left;
     color: #fff;
@@ -13584,10 +13727,12 @@ footer.ft .scrollup {
     border-radius: 26px;
     cursor: pointer;
 }
+
 .res-openmenu img {
     float: left;
     margin-right: 11px;
 }
+
 .res-closemenu {
     position: absolute;
     right: 0;
@@ -13605,6 +13750,7 @@ footer.ft .scrollup {
     opacity: 0;
     visibility: hidden;
 }
+
 .responsive-opensec {
     width: 100%;
     display: none;
@@ -13616,6 +13762,7 @@ footer.ft .scrollup {
     overflow-y: scroll;
     height: 620px;
 }
+
 .responsive-opensec .btn-extars {
     float: left;
     width: 100%;
@@ -13623,6 +13770,7 @@ footer.ft .scrollup {
     border-bottom: 1px solid #38425f;
     padding: 20px 0;
 }
+
 .res-search {
     float: left;
     width: 100%;
@@ -13635,6 +13783,7 @@ footer.ft .scrollup {
     -o-border-radius: 8px;
     border-radius: 8px;
 }
+
 .res-search input {
     float: left;
     width: 100%;
@@ -13646,6 +13795,7 @@ footer.ft .scrollup {
     padding-right: 30px;
     padding-right: 80px;
 }
+
 .res-search button {
     position: absolute;
     right: 0;
@@ -13655,17 +13805,20 @@ footer.ft .scrollup {
     font-size: 25px;
     padding: 11px 20px;
 }
+
 .responsivemenu>ul {
     float: left;
     width: 100%;
     margin: 0;
 }
+
 .responsivemenu>ul>li {
     float: left;
     width: 100%;
     margin: 15px 0;
     position: relative;
 }
+
 .responsivemenu>ul>li>a {
     float: left;
     width: 100%;
@@ -13675,6 +13828,7 @@ footer.ft .scrollup {
     padding-right: 30px;
     position: relative;
 }
+
 .responsivemenu>ul>li.menu-item-has-children>a::before {
     position: absolute;
     right: 0;
@@ -13684,6 +13838,7 @@ footer.ft .scrollup {
     background: #ffffff;
     content: "";
 }
+
 .responsivemenu>ul>li.menu-item-has-children>a::after {
     position: absolute;
     right: 10px;
@@ -13693,6 +13848,7 @@ footer.ft .scrollup {
     content: "";
     background: #ffffff;
 }
+
 .responsivemenu>ul>li ul {
     float: left;
     width: 100%;
@@ -13702,11 +13858,13 @@ footer.ft .scrollup {
     padding-left: 30px;
     display: none;
 }
+
 .responsivemenu>ul>li ul>li {
     float: left;
     width: 100%;
     margin: 0;
 }
+
 .responsivemenu>ul>li ul>li a {
     float: left;
     width: 100%;
@@ -13714,22 +13872,28 @@ footer.ft .scrollup {
     font-size: 13px;
     padding: 8px 0;
 }
+
 .responsivemenu>ul>li.menu-item-has-children.active {
     margin-bottom: 0;
 }
+
 .responsivemenu>ul>li.menu-item-has-children.active>ul {
     margin-bottom: 0;
 }
+
 .responsivemenu>ul>li.menu-item-has-children.active a::after {
     height: 0px;
 }
+
 .responsivemenu>ul>li.menu-item-has-children.active>a {
     color: #ffffff;
 }
+
 .responsivemenu>ul>li ul>li a:hover {
     color: #fb236a;
     padding-left: 15px;
 }
+
 .res-openmenu.active {
     opacity: 0;
     visibility: hidden;
@@ -13739,14 +13903,17 @@ footer.ft .scrollup {
     -o-transform: scale(0);
     transform: scale(0);
 }
+
 .responsive-header.active .res-closemenu {
     opacity: 1;
     visibility: visible;
 }
+
 .res-closemenu img {
     float: left;
     margin-right: 12px;
 }
+
 .blogpost.style2 .blog-posthumb>a img {
     -webkit-transform: none;
     -moz-transform: none;
@@ -13754,11 +13921,14 @@ footer.ft .scrollup {
     -o-transform: none;
     transform: none;
 }
+
 .res-logo>a {
     float: left;
 }
 
+
 /* Cross Browser Compatibility */
+
 header,
 .res-openmenu,
 .res-closemenu,
@@ -13876,6 +14046,4 @@ header.style4 .account-btns>li a,
     -ms-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-}
-
-}
+}}
