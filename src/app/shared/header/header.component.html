@@ -2,7 +2,7 @@
 <div class="responsive-header">
     <div class="responsive-menubar">
         <div class="res-logo">
-            <a href="index2.html" title=""><img src="http://placehold.it/178x40" alt="" /></a>
+            <a [routerLinkActive]="['home']"><img src="http://placehold.it/178x40" alt="" /></a>
             <div class="menu-resaction">
                 <div class="res-openmenu">
                     <img src="../../../assets/images/icon.png" alt="" /> Menu
@@ -29,10 +29,47 @@
                 </li>
             </ul>
         </div>
+        <div class="responsivemenu">
+            <ul>
+                <li><a [routerLink]="['home']" title="home">Home</a></li>
+                    <li class="menu-item-has-children">
+                        <a [routerLink]="['employer']">Employers</a>
+                        <ul>
+                            <li><a [routerLink]="['employer-manage-jobs']">Employer Job Manager</a></li>
+                            <li><a [routerLink]="['employer-package']">Employer Packages</a></li>
+                            <li><a [routerLink]="['employer-post-new']">Employer Post New</a></li>
+                            <li><a [routerLink]="['employer-profile']">Employer Profile</a></li>
+                            <li><a [routerLink]="['employer-resume']">Employer Resume</a></li>
+                            <li><a [routerLink]="['employer-transactions']">Employer Transaction</a></li>
+                            <li><a [routerLink]="['employer-job-alert']">Employer Job Alert</a></li>
+                            <li><a [routerLink]="['employer-change-password']">Employer Change Password</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="candidates_list.html" title="">Candidates</a>
+                        <ul>
+                            <li><a href="candidates_my_resume.html" title="">Candidates Resume</a></li>
+                            <li><a href="candidates_my_resume_add_new.html" title="">Candidates Resume new</a></li>
+                            <li><a href="candidates_profile.html" title="">Candidates Profile</a></li>
+                            <li><a href="candidates_shortlist.html" title="">Candidates Shortlist</a></li>
+                            <li><a href="candidates_job_alert.html" title="">Candidates Job Alert</a></li>
+                            <li><a href="candidates_dashboard.html" title="">Candidates Dashboard</a></li>
+                            <li><a href="candidates_cv_cover_letter.html" title="">CV Cover Letter</a></li>
+                            <li><a href="candidates_change_password.html" title="">Change Password</a></li>
+                            <li><a href="candidates_applied_jobs.html" title="">Candidates Applied Jobs</a></li>
+                        </ul>
+                    </li>
+        
+                    <li>
+                        <a [routerLink]="['job-list']">Job</a>
+                        </li>
 
+                    <li>
+                        <a [routerLink] = "['contact']">Contact</a>
+                    </li> 
+            </ul>
+        </div>
     </div>
-
-
 </div>
 <!--menu para mobiles-->
 <!--Header -->
@@ -56,17 +93,16 @@
                     <li><a [routerLink]="['home']" title="home">Home</a>
 
                         <li class="menu-item-has-children ">
-                            <a href="employer_list1.html ">Employers</a>
+                            <a [routerLink]="['employer']">Employers</a>
                             <ul>
-                                <li><a href="employer_manage_jobs.html ">Employer Job Manager</a></li>
-                                <li><a href="employer_packages.html ">Employer Packages</a></li>
-                                <li><a href="employer_post_new.html ">Employer Post New</a></li>
-                                <li><a href="employer_profile.html ">Employer Profile</a></li>
-                                <li><a href="employer_resume.html ">Employer Resume</a></li>
-                                <li><a href="employer_transactions.html ">Employer Transaction</a></li>
-                                <li><a href="employer_job_alert.html ">Employer Job Alert</a></li>
-                                <li><a href="employer_change_password.html ">Employer Change Password</a></li>
-
+                                <li><a [routerLink]="['employer-manage-jobs']">Employer Job Manager</a></li>
+                                <li><a [routerLink]="['employer-package']">Employer Packages</a></li>
+                                <li><a [routerLink]="['employer-post-new']">Employer Post New</a></li>
+                                <li><a [routerLink]="['employer-profile']">Employer Profile</a></li>
+                                <li><a [routerLink]="['employer-resume']">Employer Resume</a></li>
+                                <li><a [routerLink]="['employer-transactions']">Employer Transaction</a></li>
+                                <li><a [routerLink]="['employer-job-alert']">Employer Job Alert</a></li>
+                                <li><a [routerLink]="['employer-change-password']">Employer Change Password</a></li>
                             </ul>
                             <li class="menu-item-has-children "><a href="candidates_list.html ">Candidates</a>
                                 <ul>
@@ -81,7 +117,7 @@
                                     <li><a href="candidates_applied_jobs.html ">Candidates Applied Jobs</a></li>
 
                                 </ul>
-                                <li><a href="job_list_modern.html " title=" ">Job</a></li>
+                                <li><a [routerLink]="['job-list']">Job</a></li>
 
 
                                 <li>
