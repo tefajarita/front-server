@@ -46,17 +46,17 @@
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="candidates_list.html" title="">Candidates</a>
+                        <a [routerLink]="['candidates']">Candidates</a>
                         <ul>
-                            <li><a href="candidates_my_resume.html" title="">Candidates Resume</a></li>
-                            <li><a href="candidates_my_resume_add_new.html" title="">Candidates Resume new</a></li>
-                            <li><a href="candidates_profile.html" title="">Candidates Profile</a></li>
-                            <li><a href="candidates_shortlist.html" title="">Candidates Shortlist</a></li>
-                            <li><a href="candidates_job_alert.html" title="">Candidates Job Alert</a></li>
-                            <li><a href="candidates_dashboard.html" title="">Candidates Dashboard</a></li>
-                            <li><a href="candidates_cv_cover_letter.html" title="">CV Cover Letter</a></li>
-                            <li><a href="candidates_change_password.html" title="">Change Password</a></li>
-                            <li><a href="candidates_applied_jobs.html" title="">Candidates Applied Jobs</a></li>
+                            <li><a [routerLink]="['candidates-resume']">Candidates Resume</a></li>
+                            <li><a [routerLink]="['candidates-resume-add-new']">Candidates Resume new</a></li>
+                            <li><a [routerLink]="['candidates-profile']">Candidates Profile</a></li>
+                            <li><a [routerLink]="['candidates-shortlist']">Candidates Shortlist</a></li>
+                            <li><a [routerLink]="['candidates-job-alert']">Candidates Job Alert</a></li>
+                            <li><a [routerLink]="['candidates-dashboard']">Candidates Dashboard</a></li>
+                            <li><a [routerLink]="['candidates-cover-letter']">CV Cover Letter</a></li>
+                            <li><a [routerLink]="['candidates-change-password']">Change Password</a></li>
+                            <li><a [routerLink]="['candidates-applied-jobs']">Candidates Applied Jobs</a></li>
                         </ul>
                     </li>
         
@@ -104,22 +104,20 @@
                                 <li><a [routerLink]="['employer-job-alert']">Employer Job Alert</a></li>
                                 <li><a [routerLink]="['employer-change-password']">Employer Change Password</a></li>
                             </ul>
-                            <li class="menu-item-has-children "><a href="candidates_list.html ">Candidates</a>
+                            <li class="menu-item-has-children">
+                                <a [routerLink]="['candidates']">Candidates</a>
                                 <ul>
-                                    <li><a href="candidates_my_resume.html ">Candidates Resume</a></li>
-                                    <li><a href="candidates_my_resume_add_new.html " title=" ">Candidates Resume new</a></li>
-                                    <li><a href="candidates_profile.html ">Candidates Profile</a></li>
-                                    <li><a href="candidates_shortlist.html ">Candidates Shortlist</a></li>
-                                    <li><a href="candidates_job_alert.html ">Candidates Job Alert</a></li>
-                                    <li><a href="candidates_dashboard.html ">Candidates Dashboard</a></li>
-                                    <li><a href="candidates_cv_cover_letter.html ">CV Cover Letter</a></li>
-                                    <li><a href="candidates_change_password.html ">Change Password</a></li>
-                                    <li><a href="candidates_applied_jobs.html ">Candidates Applied Jobs</a></li>
-
+                                    <li><a [routerLink]="['candidates-resume']">Candidates Resume</a></li>
+                                    <li><a [routerLink]="['candidates-resume-add-new']">Candidates Resume new</a></li>
+                                    <li><a [routerLink]="['candidates-profile']">Candidates Profile</a></li>
+                                    <li><a [routerLink]="['candidates-shortlist']">Candidates Shortlist</a></li>
+                                    <li><a [routerLink]="['candidates-job-alert']">Candidates Job Alert</a></li>
+                                    <li><a [routerLink]="['candidates-dashboard']">Candidates Dashboard</a></li>
+                                    <li><a [routerLink]="['candidates-cover-letter']">CV Cover Letter</a></li>
+                                    <li><a [routerLink]="['candidates-change-password']">Change Password</a></li>
+                                    <li><a [routerLink]="['candidates-applied-jobs']">Candidates Applied Jobs</a></li>
                                 </ul>
                                 <li><a [routerLink]="['job-list']">Job</a></li>
-
-
                                 <li>
                                     <a [routerLink]="['contact']">Contact</a>
                                 </li>
